@@ -1,6 +1,6 @@
 (ns berlin-clock-kata.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn seconds-lamp
+  "Returns true when light must be on"
+  [seconds]
+  (even? seconds))
